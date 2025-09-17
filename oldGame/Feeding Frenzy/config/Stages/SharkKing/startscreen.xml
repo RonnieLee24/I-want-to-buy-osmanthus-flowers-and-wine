@@ -1,0 +1,26 @@
+<screen name="Stage 1 Load">
+
+	<include name="baseLyout" file="config\Stages\stageStartBase.xml" />
+
+	<textSub name="title" string="" />
+								  
+	<textSub name="tagline" string="The Final Showdown!" />
+		
+	<textSub name="para1"  string="You've reached the den of the deadly Shark King! Can\n
+									you defeat him and take his place at the very top of the\n
+									food chain?  Be careful, because food is scarce in here.\n
+									The King doesn't leave much uneaten.
+								" />
+
+	<image x="412" y="101" scaleX="0.35" scaleY="0.35" file="resources/shark/swim/swim_cycle.8.jpg" />
+	<image x="97" y="101" scaleX="-0.35" scaleY="0.35" file="resources/shark/swim/swim_cycle.8.jpg" />
+
+	<textSub name="para2"  string="\nHINT:\n
+									   Use Shield bubbles and Jelly Fish to protect you against\n
+									   the Shark King's charges.  This is it...  Good Luck!
+									" />
+
+	<textSub name="objectiveText" string="" />
+	<textSub name="timeObjectiveText" string="" />
+
+</screen>

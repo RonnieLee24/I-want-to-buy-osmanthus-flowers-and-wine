@@ -1,0 +1,22 @@
+<screen name="Stage 1 Load">
+
+	<include name="baseLyout" file="config\Stages\stageStartBase.xml" />
+
+	<textSub name="title" string="" />
+								  
+	<textSub name="tagline" string="And the fishes go round, and round, and..." />
+		
+	<textSub name="para1"  string="Where did all these mean-looking sharks come from? You\n
+									must be getting close to the King Shark's lair! Keep going!\n
+									You're almost there!" />
+
+	<textSub name="para2"  string="\nHINT:\n
+									   Sharks like to dart in quickly for the\n
+									   kill.  Try hiding behind mines for protection." />
+
+	<image x="374" y="213" scaleX="0.5" scaleY="0.5" file="resources/shark/swim/swim_cycle.8.jpg" />
+
+	<textSub name="objectiveText" string="" />
+	<textSub name="timeObjectiveText" string="" />
+
+</screen>

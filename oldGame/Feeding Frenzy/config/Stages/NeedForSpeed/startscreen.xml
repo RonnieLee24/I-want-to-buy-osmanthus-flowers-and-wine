@@ -1,0 +1,25 @@
+<screen name="Need for Speed">
+	<include name="baseLyout" file="config\Stages\stageStartBase.xml" />
+
+	<textSub name="title" string="XXX" />
+								  
+	<textSub name="tagline" string="Sometimes you need a little boost!" />
+		
+	<textSub name="para1"  string="The quick moving schools of Angel Fish are hard to catch.\n
+									Use the Speed Boost bubbles to catch them before they\n
+									can get away." />
+
+	<textSub name="para2"  string="NEW POWER-UP!\n
+  								  Chow down a Speed Boost bubble for some serious\n
+  								  speed.  The boost indicator will flash as the effect\n
+  								  start to wear off.
+								         "/>
+
+	<image name="extraButton"  file="resources\bonus\speedBubble1.jpg" x="156" y="119" />
+	<image name="extraButton"  file="resources\bonus\speedBubble1.jpg" x="447" y="119" />
+
+	<image name="extraButton"  file="resources\bonus\speedBubble1.jpg"  x="500" y="267" />
+
+	<textSub name="objectiveText" string=" " />
+	<textSub name="timeObjectiveText" string=" " />
+</screen>

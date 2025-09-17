@@ -1,0 +1,25 @@
+<screen name="Stage 1 Load">
+
+	<include name="baseLyout" file="config\Stages\stageStartBase.xml" />
+
+	<image name="extraButton" file="resources\menus\screenExtras\circleBack.png" x="458" y="170" />
+	<image name="extraButton" file="resources\Lion\hudImageRed.jpg" scaleX="-0.4" scaleY="0.4" x="463" y="193" />
+	<text  name="extraButtonCaption" font="resources\menus\infoText14.xml" x="490" y="174" string="Leon"/>
+	<textSub name="title" string="" />
+								  
+	<textSub name="tagline" string="Congratulations!  Fish Upgrade!" />
+		
+	<textSub name="para1"  string="Meet Leon the Lion Fish.  Leon is a little faster \n
+								than Andy, which makes him a tougher customer\n
+								in these deeper waters." />
+
+	<textSub name="para2"  string="NEW ABILITY!\n
+								     Now you can suck in other fish!  Hold down\n
+								     the RIGHT M0USE BUTTON to suck in all the fish in \n
+								     front of you. It takes a few seconds to recharge,\n
+								     so use it wisely."/>
+
+	<textSub name="objectiveText" string="" />
+	<textSub name="timeObjectiveText" string="" />
+
+</screen>

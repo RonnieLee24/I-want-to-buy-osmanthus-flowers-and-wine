@@ -1,0 +1,22 @@
+<screen name="Stage 1 Load">
+
+	<include name="baseLyout" file="config\Stages\stageStartBase.xml" />
+
+	<textSub name="title" string="" />
+								  
+	<textSub name="tagline" string="Watch where you point that thing!"/>		
+	<textSub name="para1"  string="The Marlin is a formidable predator, and these\n
+									waters are filled with them.\n" />
+
+	<textSub name="para2"  string="HINT:\n
+								      Shaking your tail: Marlins are known to be quite\n
+								      tenacious. If one is on your tail, you may need to\n
+								      lure him into a nearby mine.\n
+								      " />
+
+	<image x="372" y="142" scaleX="0.85" scaleY="0.85" file="resources/marlin/swim/swim_cycle.1.jpg" />
+	
+	<textSub name="objectiveText" string="" />
+	<textSub name="timeObjectiveText" string="" />
+
+</screen>

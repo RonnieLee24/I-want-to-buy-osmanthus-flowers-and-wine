@@ -1,0 +1,24 @@
+<screen name="Shell Game Start">
+	<include name="baseLyout" file="config\Stages\stageStartBase.xml" />
+
+	<textSub name="title" string="XXX" />
+								  
+	<textSub name="tagline" string="Bonus Stage!" />
+		
+	<textSub name="para1"  string="Each oyster has exactly one pearl. Can you collect them\n
+									all (without getting chomped) before time runs out?
+								" />
+
+	<textSub name="para2"  string="Don't forget speed boost:\n
+								  This is a perfect place to use your speed boost.\n
+								  Get in, get out, nobody gets hurt!\n
+								         "/>
+
+	<group x="0" y="20" >
+		<image name="extraButton" file="resources\Oyster\open.4.jpg" x="455" y="200" />
+		<image name="pearlButton" file="resources\Oyster\pearl.jpg" x="505" y="262" pivot="center" opacity="0.8" scaleX=".6" scaleY=".6" />
+	</group>
+
+	<textSub name="objectiveText" string="" />
+	<textSub name="timeObjectiveText" string="" />
+</screen>

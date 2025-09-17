@@ -1,0 +1,20 @@
+<screen name="Stage 1 Load">
+
+	<include name="baseLyout" file="config\Stages\stageStartBase.xml" />
+
+	<textSub name="title" string="" />
+								  
+	<textSub name="tagline" string="Just bouncing around..." />		
+	<textSub name="para1"  string="Another bonus stage! Can you eat 25 puffer fish before\n
+								time runs out? Even with the Flash Bomb bubble it's going\n
+								to be a bit tricky..." />
+
+	<textSub name="para2"  string="HINT:\n
+								   It's much easier to eat puffer fish while they are\n
+								   stunned. Take advantage of the Flash Bomb bubbles\n
+								   wherever you can." />
+
+	<textSub name="objectiveText" string="" />
+	<textSub name="timeObjectiveText" string="" />
+
+</screen>

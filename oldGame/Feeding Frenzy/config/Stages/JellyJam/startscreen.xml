@@ -1,0 +1,24 @@
+<screen name="Stage 1 Load">
+
+	<include name="baseLyout" file="config\Stages\stageStartBase.xml" />
+
+	<textSub name="title" string="XXX\n" />
+								  
+	<textSub name="tagline" string="Bonus Stage!" />
+		
+	<textSub name="para1"  string="Time for another bonus stage!  There are a whole lot of \n
+									Starfish Bubbles hidden in this giant group of jellies. How\n
+									many can you eat before the timer runs out?" />
+
+	<textSub name="para2"  string="BONUS BUBBLES:\n
+							   Eat the Score Multiplier bubbles to double the\n
+							   points for everything you eat! Also, keep an eye\n
+							   out for the Extra-Life Bubble!" />
+
+	<image name="extraButton" file="resources\bonus\2xBubble1.jpg" x="475" y="245" />
+	<image name="extraButton" file="resources\bonus\fishBubble1.png" x="495" y="305" />
+
+	<textSub name="objectiveText" string=" " />
+	<textSub name="timeObjectiveText" string=" " />
+
+</screen>

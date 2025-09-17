@@ -1,0 +1,21 @@
+<screen name="Crazy Jelly Start">
+	<include name="baseLyout" file="config\Stages\stageStartBase.xml" />
+
+	<textSub name="title" string="XXX" />
+								  
+	<textSub name="tagline" string="Those pesky humans are dropping stuff on us!" />
+		
+	<textSub name="para1"  string="Watch out! These waters are filling up with deadly mines.\n
+					They will explode if you swim to close!\n
+								" />
+
+	<textSub name="para2"  string="Hint:\n
+								    If you're careful, you can hide behind a mine\n
+								    to protect you from a predator that's chasing you.
+								         "/>
+
+	<image name="extraButton" file="resources\mine\mine0.jpg" opacity="1.0" scaleY="1" scaleX="1" x="455" y="205" />
+
+	<textSub name="objectiveText" string="Boom!" />
+	<textSub name="timeObjectiveText" string="" />
+</screen>

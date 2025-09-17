@@ -1,0 +1,24 @@
+<screen name="Bubble Bubble Start">
+
+	<include name="baseLyout" file="config\Stages\stageStartBase.xml" />
+
+	<textSub name="title" string="XXX" />
+								  
+	<textSub name="tagline" string="A starfish a day keeps low scores away!" />
+		
+	<textSub name="para1"  string="Rumor has it that some tough customers live on this side of \n
+								the reef.  Watch out for the Lion Fish who can chase you down!  \n
+								" />
+
+	<textSub name="para2"  string="STARFISH BUBBLES:\n
+								         Starfish bubbles don't help you grow, but\n
+								         they are worth a lot of points.  Plus, they\n
+								         won't bite back!\n" />
+								
+
+	<image name="extraButton" file="resources\bonus\starBubble1.png" x="475" y="265" />
+
+	<textSub name="objectiveText" string=" " />
+	<textSub name="timeObjectiveText" string=" " />
+
+</screen>

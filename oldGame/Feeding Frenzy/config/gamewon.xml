@@ -1,0 +1,48 @@
+<screen name="GameWon">
+
+	<image name="background" file="resources\menus\mainBg.jpg"  />
+	<image name="backdrop" file="resources\menus\infoFrame.jpg" pivot="center" opacity="0.9" x="320" y="240" />
+	
+	<text name="title" string="CONGRATULATIONS!!!" font="resources/HUD/frenzyFontWhite.xml" xAlign="center" yAlign="top" size="18" x="320" y="92" />
+	<particleSystem name="fireworks" file="config/FX/fireworks.xml" x="320" y="115" />
+
+	<text name="congrat" font="resources/HUD/textFont.xml" xAlign="center"
+			x="320" y="145"
+			string="You've defeated the Shark King!\nYou've reached the top of the food chain!" />
+			
+	<text name="timedMode" font="resources/HUD/textFont.xml" xAlign="center"
+			x="320" y="195"
+			string="And you did it playing Timed mode!" />
+	
+	<text name="ssTitle" font="resources/menus/infoText14.xml" xAlign="center"
+			x="320" y="215"
+		string="" />
+	
+	<text name="helpHeader" font="resources/menus/infoText14.xml" xAlign="left"
+			x="102" y="230"
+			string="BUT..." />
+
+	<text name="timedHeader" font="resources/menus/infoText14.xml" xAlign="left"
+			x="102" y="230"
+			string="NOW..." />
+
+	<text name="helpText" font="resources/menus/infoText14.xml"
+			x="114" y="251"
+			string="The adventure isn't over yet. Do you have what it takes to\n
+					win at timed mode? You'll have to finish each level within a\n
+					fixed time limit to move on.\n\n
+					Plus, for an extra-special challenge, see if you can unlock all six\n
+					of the screen savers! You'll have to add 10,000 fish to your\n
+					fish bank to do that..." />
+
+	<text name="timedText" font="resources/menus/infoText14.xml"
+			x="114" y="251"
+			string="Try to unlock all six of the screen savers! You only need to eat\n
+					10,000 fish to do that..." />
+						
+	<group name="continueBtnGroup" x="218" y="380">
+		<imageButton name="continueBtn" upImg="resources\menus\genericButtonNormal.png" overImg="resources\menus\genericButtonHigh.png" x="25" y="15" action="gameWonDone"  overSound="resources/sounds/mouseOver.wav" activeSound="resources/sounds/mouseDown.wav" />
+		<text name="continueBtnText" string="Done" font="resources/HUD/buttonFont.xml" xAlign="center" yAlign="top" size="18" x="96" y="30" />
+	</group>
+
+</screen>

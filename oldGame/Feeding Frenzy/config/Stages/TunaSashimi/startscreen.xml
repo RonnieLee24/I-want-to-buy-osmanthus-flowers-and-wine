@@ -1,0 +1,24 @@
+<screen name="Stage 1 Load">
+
+	<include name="baseLyout" file="config\Stages\stageStartBase.xml" />
+
+	<textSub name="title" string="" />
+								  
+	<textSub name="tagline" string="Pass the wasabi ..."/>		
+	<textSub name="para1"  string="These deep waters are swarming with sleek fast Tuna,\n
+					so watch out. Stay out of their way until you've\n
+					grown large enough - then have a feast!\n" />
+
+	<textSub name="para2"  string="HINT:\n
+									   Get 'em while they're fresh!  Schools of fish\n
+									   are easiest to catch when they first appear on the\n
+									   screen. Wait too long, and they'll scatter.\n" />
+
+	
+	<image x="428" y="195" scaleX="-0.5" scaleY="0.5" file="resources/tuna/swim/swim_cycle.1.jpg" />
+
+
+	<textSub name="objectiveText" string="" />
+	<textSub name="timeObjectiveText" string="" />
+
+</screen>

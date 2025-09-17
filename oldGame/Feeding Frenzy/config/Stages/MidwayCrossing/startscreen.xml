@@ -1,0 +1,26 @@
+<screen name="Stage 1 Load">
+
+	<include name="baseLyout" file="config\Stages\stageStartBase.xml" />
+
+	<textSub name="title" string="" />
+								  
+	<textSub name="tagline" string="Where's everyone going?" />
+		
+	<textSub name="para1"  string="It's oceanic rush hour! Be sure to yield\n
+					the right of way to the bigger fish.\n
+					They have important places to go!" />
+
+	<textSub name="para2"  string="HINT:\n
+								   When fish are stunned, they can't eat you, no matter how\n
+								   big they are!  So feel free to get up close and personal - \n
+								   until they wake up, of course.
+								" />
+
+	<image x="376" y="136" scaleX="-0.5" scaleY="0.5" file="resources/marlin/swim/swim_cycle.1.jpg" />
+	<image x="452" y="198" scaleX="-0.4" scaleY="0.4" file="resources/tuna/swim/swim_cycle.4.jpg" />
+	<image x="361" y="200" scaleX="-0.34" scaleY="0.34" file="resources/JohnDory/swim/swim_cycle.4.jpg" />
+
+	<textSub name="objectiveText" string="" />
+	<textSub name="timeObjectiveText" string="" />
+
+</screen>

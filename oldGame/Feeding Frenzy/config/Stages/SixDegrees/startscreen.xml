@@ -1,0 +1,21 @@
+<screen name="Six Degrees Load">
+
+	<include name="baseLyout" file="config\Stages\stageStartBase.xml" />
+
+	<textSub name="title" string="" />
+								  
+	<textSub name="tagline" string="Who's Obtuse?" />
+		
+	<textSub name="para1"  string="The ocean seems to be getting more crowded these days\n
+					and these mines don't help one bit!  Be careful out there!\n" />
+
+	<textSub name="para2"  string="HINT:\n
+									   The suck ability is especially helpful for Eddie because\n
+									   he's slow. Park yourself near a tasty school of fish then \n
+									   take a deep breath!
+									" />
+
+	<textSub name="objectiveText" string="" />
+	<textSub name="timeObjectiveText" string="" />
+
+</screen>

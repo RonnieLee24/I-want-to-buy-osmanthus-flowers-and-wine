@@ -1,0 +1,23 @@
+<screen name="Bubble Bubble Start">
+
+	<include name="baseLyout" file="config\Stages\stageStartBase.xml" />
+
+	<textSub name="title" string="XXX" />
+								  
+	<textSub name="tagline" string="Beware the prickly puffer fish!" />
+		
+	<textSub name="para1"  string="This rocky reef is inhabited by prickly Puffer Fish.  These\n
+								innocent looking fish can inflate like balloons to protect\n
+								themselves." />
+
+	<textSub name="para2"  string="PUFFER FISH:\n
+									    Don't try to eat an inflated Puffer Fish, no\n
+									    matter how big you are.  If you do, you'll\n
+									    bounce and lose some points. Try to be patient!"/>
+
+	<image name="extraButton" scaleX="-0.50" scaleY="0.50" file="resources\pufferFish\puff\puff_cycle.6.jpg" x="440" y="218" />
+
+	<textSub name="objectiveText" string=" " />
+	<textSub name="timeObjectiveText" string=" " />
+
+</screen>

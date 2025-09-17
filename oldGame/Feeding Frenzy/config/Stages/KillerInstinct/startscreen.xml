@@ -1,0 +1,27 @@
+<screen name="Stage 1 Load">
+
+	<include name="baseLyout" file="config\Stages\stageStartBase.xml" />
+
+	<image name="extraButton" file="resources\menus\screenExtras\circleBack.png" x="458" y="170" />
+	<image name="extraButton" file="resources\orca\swim\swim_cycle.1.jpg" scaleX="-0.5" scaleY="0.5" x="430" y="193" />
+	<text  name="extraButtonCaption" font="resources\menus\infoText14.xml" x="490" y="174" string="Orville"/>
+
+	<textSub name="title" string="" />
+								  
+	<textSub name="tagline" string="Congratulations!  Fish Upgrade!" />
+		
+	<textSub name="para1"  string="Meet Orville, the Orca Whale! You've left the reef\n
+									at last, and reached the vast, open water. It's\n
+									beautiful out here, but deadly too.  This is the\n
+									home of the great white shark!" />
+
+	<textSub name="para2"  string="\nYou have more room to move out in the open waters.\n
+									If things get a little too crowded near you, try to find\n
+									a safer spot to feed.
+									" />
+
+
+	<textSub name="objectiveText" string="" />
+	<textSub name="timeObjectiveText" string="" />
+
+</screen>

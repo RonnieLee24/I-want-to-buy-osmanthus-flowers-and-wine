@@ -1,0 +1,21 @@
+<screen name="Sucker's Bet">
+	<include name="baseLyout" file="config\Stages\stageStartBase.xml" />
+
+	<textSub name="title" string="XXX" />
+								  
+	<textSub name="tagline" string="Watch the puffer..." />
+		
+	<textSub name="para1"  string="Another bonus stage! Each oyster still has exactly one pearl,\n
+								but this time, it's a bit trickier.  You have to eat all the pearls\n
+								AND all the puffer fish before time runs out. Can you do it? \n
+								" />
+
+	<textSub name="para2"  string="GREAT PROGRESS!\n
+								     You've come far since your minnow munching days! You\n
+								     just might have what it takes to defeat the SHARK KING!\n
+								         "/>
+
+	<textSub name="objectiveText" string="" />
+	<textSub name="timeObjectiveText" string="" />
+
+</screen>

@@ -1,0 +1,21 @@
+<screen name="Stage 1 Load">
+
+	<include name="baseLyout" file="config\Stages\stageStartBase.xml" />
+
+	<textSub name="title" string="" />
+								  
+	<textSub name="tagline" string="Do you know what to do when danger threatens?" />		
+	<textSub name="para1"  string="These are dangerous waters. Watch out for mines coming\n
+					from above, and jellyfish coming from below!\n" />
+
+	<textSub name="para2"  string="HINT:\n
+								   Did you know that you can move mines by using your\n
+								   suck ability?  With practice, you can move them out\n
+								   of your way, or even suck them right into other fish!\n
+								   " />
+
+
+	<textSub name="objectiveText" string="" />
+	<textSub name="timeObjectiveText" string="" />
+
+</screen>

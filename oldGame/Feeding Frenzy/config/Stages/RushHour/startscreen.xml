@@ -1,0 +1,27 @@
+<screen name="Stage 1 Load">
+
+	<include name="baseLyout" file="config\Stages\stageStartBase.xml" />
+
+	<textSub name="title" string="XXX\n" />
+								  
+	<textSub name="tagline" string="Torpedos with Teeth"/>
+
+	<image name="extraButton"  file="resources\hud\dangerSign.png" scaleX="0.75" scaleY="0.75" x="168" y="119" />
+	<image name="extraButton"  file="resources\hud\dangerSign.png" scaleX="0.75" scaleY="0.75" x="447" y="119" />
+		
+	<textSub name="para1"  string="Rumor has it a deadly barracuda has been terrorizing this \n
+									part of the ocean!  Watch for the the early warning signs,\n
+									and get out of the way!\n
+									"/>
+
+	<textSub name="para2"  string="\nFeeling Lucky?\n
+							   Bite the barracuda's tail to score some extra points -\n
+							   but be careful, he just might bite back!\n
+							   " />
+
+	<image name="extraButton" file="resources\barracuda\swim\swim_cycle.13.jpg" scaleY="0.7" scaleX="0.7" x="387" y="305" />
+
+	<textSub name="objectiveText" string=" " />
+	<textSub name="timeObjectiveText" string=" " />
+
+</screen>

@@ -1,0 +1,24 @@
+<screen name="Hidden Treasure Start">
+	<include name="baseLyout" file="config\Stages\stageStartBase.xml" />
+
+	<textSub name="title" string="XXX" />
+								  
+	<textSub name="tagline" string="Clam up!" />
+		
+	<textSub name="para1"  string="There are some oysters here on the ocean floor that are busy\n
+								making pearls. Swoop in and eat the pearls for extra points!\n
+								If you're lucky you may find other treasures inside!\n
+								" />
+
+	<textSub name="para2"  string="\nFish Dash Attack:\n
+								         Click your left mouse button for a quick\n
+								         burst of speed!
+								         "/>
+	<group x="0" y="30" >
+		<image name="extraButton" file="resources\Oyster\open.4.jpg" x="455" y="200" />
+		<image name="pearlButton" file="resources\Oyster\pearl.jpg" x="505" y="262" pivot="center" opacity="0.8" scaleX=".6" scaleY=".6" />
+	</group>
+
+	<textSub name="objectiveText" string="" />
+	<textSub name="timeObjectiveText" string="" />
+</screen>

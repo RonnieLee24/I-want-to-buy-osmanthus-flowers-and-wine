@@ -1,0 +1,23 @@
+<screen name="Stage 1 Load">
+
+	<include name="baseLyout" file="config\Stages\stageStartBase.xml" />
+
+	<textSub name="title" string="XXX\n" />
+								  
+	<textSub name="tagline" string="Bonus Stage!" />
+		
+	<textSub name="para1"  string="It's another Feeding Frenzy bonus stage! Lots of fish   \n
+									to eat, but watch out for the mines and the poisonous\n
+									mutant minnows. \n
+									" />
+
+	<textSub name="para2"  string="HINT:\n
+							   If you get eaten or killed on a bonus stage, you it doesn't\n
+							   cost you a life.  So take some chances out and try to clear\n
+							   the stage before the timer runs out.  Good Luck!\n
+							   " />
+
+	<textSub name="objectiveText" string=" " />
+	<textSub name="timeObjectiveText" string=" " />
+
+</screen>

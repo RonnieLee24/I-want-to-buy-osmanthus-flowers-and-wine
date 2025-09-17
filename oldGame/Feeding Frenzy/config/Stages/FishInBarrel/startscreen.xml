@@ -1,0 +1,21 @@
+<screen name="Fish in Barrel Start">
+
+	<include name="baseLyout" file="config\Stages\stageStartBase.xml" />
+
+	<textSub name="title" string="XXX" />
+								  
+	<textSub name="tagline" string="How many can you get?" />
+		
+	<textSub name="para1"  string="Another bonus stage! These Angel Fish are moving really fast!\n
+									Can you eat them all before time runs out?  Use the Speed\n
+									Boost bubbles to help you!\n"
+								   />
+
+	<textSub name="para2"  string="HINT:\n
+								    Use the Speed Boost Bubble plus the Fish Dash ability\n
+								    (left mouse button) to chase down quick moving fish."/>
+
+	<textSub name="objectiveText" string=" " />
+	<textSub name="timeObjectiveText" string=" " />
+
+</screen>

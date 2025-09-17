@@ -1,0 +1,23 @@
+<screen name="Stage 1 Load">
+
+	<include name="baseLyout" file="config\Stages\stageStartBase.xml" />
+
+	<image name="extraButton" file="resources\menus\screenExtras\circleBack.png" x="458" y="170" />
+	<image name="extraButton" file="resources\JohnDory\swim\swim_cycle.10.jpg" scaleX="0.46" scaleY="0.46" x="470" y="183" />
+	<text  name="extraButtonCaption" font="resources\menus\infoText14.xml" x="495" y="174" string="J.D."/>
+	<textSub name="title" string="" />
+								  
+	<textSub name="tagline" string="Congratulations!  Fish Upgrade!" />
+		
+	<textSub name="para1"  string="Meet J.D. (aka John Dory). J.D. is fast and powerful\n
+					He should be able to get you as far as the open\nwaters out near Shark Reef.\n" />
+
+	<textSub name="para2"  string="The Food Chain:\n
+					   You've made it pretty far up the food chain.\n
+					   At the top of the food chain sits the Shark King.\n
+					   Can you unseat him and claim the throne?\n" />
+
+	<textSub name="objectiveText" string="" />
+	<textSub name="timeObjectiveText" string="" />
+
+</screen>

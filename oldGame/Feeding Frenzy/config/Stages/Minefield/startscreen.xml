@@ -1,0 +1,24 @@
+<screen name="Stage 1 Load">
+
+	<include name="baseLyout" file="config\Stages\stageStartBase.xml" />
+
+	<textSub name="title" string="" />
+								  
+	<textSub name="tagline" string="Bonus Stage!" />
+		
+	<textSub name="para1"  string="You're nearing the lair of the ocean's shark king, but\n
+									your path is barred by a maze of land mines. Scoop up\n
+									40 bonus bubbles in order to get through.\n" />
+
+	<textSub name="para2"  string="HINT:\n
+									   Don't waste your time trying to eat the minnows.\n
+									   Let them clear a path through the mines for you.  Try\n
+									   to stock up on extra lives for your final showdown!
+									" />
+
+	<image name="extraButton" file="resources\mine\mine0.jpg" opacity="1.0" scaleY="1" scaleX="1" x="475" y="215" />
+
+	<textSub name="objectiveText" string="" />
+	<textSub name="timeObjectiveText" string="" />
+
+</screen>

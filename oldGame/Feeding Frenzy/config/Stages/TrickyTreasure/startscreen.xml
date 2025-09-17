@@ -1,0 +1,22 @@
+<screen name="Crazy Jelly Start">
+	<include name="baseLyout" file="config\Stages\stageStartBase.xml" />
+
+	<textSub name="title" string="XXX" />
+								  
+	<textSub name="tagline" string="Clam up!" />
+		
+	<textSub name="para1"  string="The oysters in this part of the reef don't stay open very long.\n
+								If you're trying to steal their precious treasure you'll have to\n
+								move fast!\n" />
+
+	<textSub name="para2"  string="HINT: Black Pearls\n
+									    The mysterious black pearl is 5 times more\n
+									    valuable than the ordinary white pearl. That\n
+									    will help you grow up pretty quickly!
+								         "/>
+
+	<image name="pearlButton" file="resources\Oyster\blackPearl.jpg" x="494" y="285" pivot="center" opacity="0.8" scaleX="1.0" scaleY="1.0" />
+
+	<textSub name="objectiveText" string="" />
+	<textSub name="timeObjectiveText" string="" />
+</screen>

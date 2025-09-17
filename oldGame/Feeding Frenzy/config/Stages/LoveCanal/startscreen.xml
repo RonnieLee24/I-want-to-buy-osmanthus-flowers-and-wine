@@ -1,0 +1,23 @@
+<screen name="Stage 1 Load">
+
+	<include name="baseLyout" file="config\Stages\stageStartBase.xml" />
+
+	<textSub name="title" string="" />
+								  
+	<textSub name="tagline" string="Polluted Waters" />
+		
+	<textSub name="para1"  string="A toxic spill here has turned many of the local fish into\n
+									poisonous mutants. Be careful, or you might just end up\n
+									that way too!"/>
+
+	<textSub name="para2"  string="Jellyfish are friends?\n
+								  Jellyfish pack a mean sting, but they can be useful too.\n
+								  Hide behind them and use them to shield you from\n
+								  predators.  Their sting affects even the biggest fish!\n
+									" />
+
+
+	<textSub name="objectiveText" string="" />
+	<textSub name="timeObjectiveText" string="" />
+
+</screen>

@@ -1,0 +1,20 @@
+<screen name="Stage 1 Load">
+
+	<include name="baseLyout" file="config\Stages\stageStartBase.xml" />
+
+	<textSub name="title" string="" />
+								  
+	<textSub name="tagline" string="The Alliteration Never Ends..." />
+		
+	<textSub name="para1"  string="There are lots of poisonous mutants here - try not to suck them up\n
+									as you chow down on the schools of fish. Hunting tuna love to\n
+									take advantage of disoriented prey." />
+
+	<textSub name="para2"  string="HINT:\n
+									   Don't Forget to keep an eye out for oysters on the ocean\n
+									   floor!\n" />
+
+	<textSub name="objectiveText" string="" />
+	<textSub name="timeObjectiveText" string="" />
+
+</screen>

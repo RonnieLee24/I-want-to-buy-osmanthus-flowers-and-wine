@@ -1,0 +1,21 @@
+<screen name="Stage 1 Load">
+
+	<include name="baseLyout" file="config\Stages\stageStartBase.xml" />
+
+	<textSub name="title" string="" />
+								  
+	<textSub name="tagline" string="No place for a casual swim..." />
+		
+	<textSub name="para1"  string="Shark Reef is the home of the nastiest, toughest sharks\n
+									in the ocean. Can you help them clean up their act?\n" />
+
+	<textSub name="para2"  string="HINT\n
+									   In dangerous waters, it's sometimes better to let the\n
+									   smaller fish come to you. It takes patience, but you\n
+									   don't want to take too many chances out here!\n"
+									   />
+
+	<textSub name="objectiveText" string="" />
+	<textSub name="timeObjectiveText" string="" />
+
+</screen>

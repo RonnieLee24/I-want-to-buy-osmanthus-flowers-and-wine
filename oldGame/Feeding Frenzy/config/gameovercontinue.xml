@@ -1,0 +1,18 @@
+<screen name="Game Over Continue">
+
+	<image name="background" file="resources\menus\mainBg.jpg"  />
+
+	<text name="loadingText" string="GAME OVER" font="resources/HUD/frenzyFontWhite.xml" xAlign="center" yAlign="top" size="18" x="320" y="160" />
+	<text name="continueCountText" string="Continues Left: 3" font="resources/HUD/textFont.xml" xAlign="center" yAlign="top" size="18" x="320" y="220" />
+
+	<group name="quitBtnGroup" x="150" y="320">
+		<imageButton name="quitBtn" upImg="resources\menus\genericButtonNormal.png" overImg="resources\menus\genericButtonHigh.png" x="0" y="0" action="quitGame"  overSound="resources/sounds/mouseOver.wav" activeSound="resources/sounds/mouseDown.wav" />
+		<text name="quitBtnText" string="Quit" font="resources/HUD/buttonFont.xml" xAlign="center" yAlign="top" size="18" x="68" y="15" />
+	</group>
+
+	<group name="continueBtnGroup" x="350" y="320">
+		<imageButton name="continueBtn" upImg="resources\menus\genericButtonNormal.png" overImg="resources\menus\genericButtonHigh.png" x="0" y="0" action="continueGame"  overSound="resources/sounds/mouseOver.wav" activeSound="resources/sounds/mouseDown.wav" />
+		<text name="continueBtnText" string="Continue" font="resources/HUD/buttonFont.xml" xAlign="center" yAlign="top" size="18" x="68" y="15" />
+	</group>
+
+</screen>

@@ -1,0 +1,25 @@
+<screen name="Stage 1 Load">
+
+	<include name="baseLyout" file="config\Stages\stageStartBase.xml" />
+
+	<textSub name="title" string="XXX\n" />
+								  
+	<textSub name="tagline" string="A chance encounter"/>
+
+	<textSub name="para1"  string="What's this? You've lost your way and stumbled into really\n
+									deep waters!  Can you find your way back?  It's pretty\n
+									scary out here!
+									" />
+
+	<textSub name="para2"  string="Tail Credit:\n
+								     Don't forget that you can bite the tails of some big\n
+								     fish. When you see the hazard sign, get ready to snack!\n
+									"/>
+
+	<image name="extraButton"  file="resources\hud\dangerSign.png" scaleX="0.75" scaleY="0.75" x="168" y="119" />
+	<image name="extraButton"  file="resources\hud\dangerSign.png" scaleX="0.75" scaleY="0.75" x="433" y="119" />
+
+	<textSub name="objectiveText" string=" " />
+	<textSub name="timeObjectiveText" string=" " />
+
+</screen>

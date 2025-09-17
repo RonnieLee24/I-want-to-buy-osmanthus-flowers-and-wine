@@ -1,0 +1,29 @@
+<screen name="Fish Soup Start">
+
+	<include name="baseLyout" file="config\Stages\stageStartBase.xml" />
+
+	<textSub name="title" string="XXX" />
+								  
+	<textSub name="tagline" string="Nothing like a nice bouillabaisse..." />
+		
+	<textSub name="para1"  string="It's like an all-you-can-eat Minnow buffet here! To bad\n
+								the other nearby predators have the same idea.\n" />
+
+	<textSub name="para2"  string="NEW POWER-UP!\n
+									    Eat a 'Flash Bomb' bubble to stun all the other\n
+									    fish on the screen for a few seconds!\n\n
+								Hint: Don't forget to use the Right Mouse button to suck!"/>
+
+	<group x="0" y="-20">
+   		<image name="extraButton" file="resources\Bonus\stunBubble1.png" pivot="center" x="502" y="273" />
+
+   		<image name="extraButton" file="resources\FX\Stun\stunBonusParticle0.png" scaleX="0.5" scaleY="0.5" pivot="center" x="462" y="253" />
+   		<image name="extraButton" file="resources\FX\Stun\stunBonusParticle0.png" scaleX="0.5" scaleY="0.5" pivot="center" x="532" y="233" />
+   		<image name="extraButton" file="resources\FX\Stun\stunBonusParticle0.png" scaleX="0.5" scaleY="0.5" pivot="center" x="523" y="313" />
+   		<image name="extraButton" file="resources\FX\Stun\stunBonusParticle0.png" scaleX="0.5" scaleY="0.5" pivot="center" x="473" y="305" />
+	</group>
+
+	<textSub name="objectiveText" string=" " />
+	<textSub name="timeObjectiveText" string=" " />
+
+</screen>

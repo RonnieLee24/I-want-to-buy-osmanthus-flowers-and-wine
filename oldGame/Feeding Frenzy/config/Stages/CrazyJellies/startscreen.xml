@@ -1,0 +1,22 @@
+<screen name="Crazy Jelly Start">
+	<include name="baseLyout" file="config\Stages\stageStartBase.xml" />
+
+	<textSub name="title" string="XXX" />
+								  
+	<textSub name="tagline" string="A la peanut butter and jelly fish sandwich!" />
+		
+	<textSub name="para1"  string="You've stumbled across a group of roaming jelly fish.\n
+								They're pretty to look at, but watch out for their\n
+								sting! Touch them, and you'll be stunned for a few\n
+								seconds." />
+
+	<textSub name="para2"  string="\nGOLDEN MINNOWS:\n
+								       If you spot a mysterious golden fish try to catch it!\n
+								       They're fast, but they'll help you grow much quicker!\n
+								         "/>
+
+	<image name="extraButton" file="resources\jellyFish\jelly.4.jpg" opacity="0.79" scaleY="0.7" scaleX="0.7" x="485" y="155" />
+
+	<textSub name="objectiveText" string="When you're stunned, you become a sitting duck, so watch out!" />
+	<textSub name="timeObjectiveText" string="When you're stunned, you become a sitting duck, so watch out!" />
+</screen>

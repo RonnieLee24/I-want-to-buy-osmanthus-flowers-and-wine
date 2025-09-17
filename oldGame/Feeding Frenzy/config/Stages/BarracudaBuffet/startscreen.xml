@@ -1,0 +1,21 @@
+<screen name="Stage 1 Load">
+
+	<include name="baseLyout" file="config\Stages\stageStartBase.xml" />
+
+	<textSub name="title" string="" />
+								  
+	<textSub name="tagline" string="Bonus Stage!" />
+		
+	<textSub name="para1"   string="Remember all the trouble those barracuda gave you back in\n
+									the reef?  Well, it's payback time.  A school of barracuda\n
+									sounds like a Bonus Stage snack, doesn't it?" />
+
+	<textSub name="para2"  string="HINT:\n
+									   Grab a Feeding Fury bubble to chow down and save some\n
+									   precious time!  You get bonus points for any time left over\n
+									   at the end of a bonus stage.\n" />
+
+	<textSub name="objectiveText" string="" />
+	<textSub name="timeObjectiveText" string="" />
+
+</screen>

@@ -1,0 +1,31 @@
+<screen name="Bubble Bubble Start">
+
+	<include name="baseLyout" file="config\Stages\stageStartBase.xml" />
+
+	<textSub name="title" string="School's Out!" />
+								  
+	<textSub name="tagline" string="Time for a culinary field trip!" />
+
+	<textSub name="para1"  string="Fish swim in schools for defense. Eat an entire school\n
+									to earn a special 'School' bonus that's worth a \n
+									whopping 500 points!" />
+
+	<textSub name="para2"  string="\nHINT:\n
+								         Remember to use your Fish Dash ability! It's a great \n
+								         way to catch quick moving schools of fish.\n
+								         (Left-click to use speed boost)"/>
+
+	<group x="465" y="225" scaleX="-1" name="school">
+		<image x="8" y="6" name="minnow2" scaleX="0.5" scaleY="0.5" file="resources/brineShrimp/hudImage.png" />
+		<image x="-15" y="12" name="minnow2" scaleX="0.5" scaleY="0.5" file="resources/brineShrimp/hudImage.png" />
+		<image x="-5" y="-18" name="minnow2" scaleX="0.5" scaleY="0.5" file="resources/brineShrimp/hudImage.png" />
+		<image x="-30" y="0" name="minnow2" scaleX="0.5" scaleY="0.5" file="resources/brineShrimp/hudImage.png" />
+		<image x="-18" y="-32" name="minnow2" scaleX="0.5" scaleY="0.5" file="resources/brineShrimp/hudImage.png" />
+		<image x="-36" y="-14" name="minnow2" scaleX="0.5" scaleY="0.5" file="resources/brineShrimp/hudImage.png" />
+		<image x="26" y="-19" name="minnow2" scaleX="0.5" scaleY="0.5" file="resources/brineShrimp/hudImage.png" />
+	</group>
+
+	<textSub name="objectiveText" string=" " />
+	<textSub name="timeObjectiveText" string=" " />
+
+</screen>

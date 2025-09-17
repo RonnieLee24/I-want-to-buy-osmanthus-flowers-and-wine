@@ -1,0 +1,24 @@
+<screen name="Stage 1 Load">
+
+	<include name="baseLyout" file="config\Stages\stageStartBase.xml" />
+
+	<textSub name="title" string="" />
+								  
+	<textSub name="tagline" string="Dazed and Confused" />		
+	<textSub name="para1"  string="Sometimes life gets a little bit hectic. That's when smart\n
+									fish look for the Flash Bomb bubble. This power-up is a\n
+									potent ally in these mine-infested waters.\n" />
+
+	<textSub name="para2"  string="\nHINT:\n
+								   Did you know that the eating a Flash Bomb bubble will\n
+								   cause all the mines on the screen to explode?
+								   "
+								   />
+
+	<image name="extraButton"  file="resources\bonus\stunBubble1.png" x="156" y="113" />
+	<image name="extraButton"  file="resources\bonus\stunBubble1.png" x="447" y="113" />
+
+	<textSub name="objectiveText" string="" />
+	<textSub name="timeObjectiveText" string="" />
+
+</screen>

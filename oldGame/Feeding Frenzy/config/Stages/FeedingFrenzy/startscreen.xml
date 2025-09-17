@@ -1,0 +1,22 @@
+<screen name="Stage 1 Load">
+
+	<include name="baseLyout" file="config\Stages\stageStartBase.xml" />
+
+	<textSub name="title" string="Stage 2: Feeding Frenzy!\n" />
+								  
+	<textSub name="tagline" string="Bonus Stage!" />
+		
+	<textSub name="para1"  string="You've come across a school of minnows, and there are no \n
+									predators in sight. Can you eat all the fish before the \n
+									timer runs out?" />
+
+	<textSub name="para2"  string="THE FRENZY METER:\n
+							   Fill up your FRENZY METER by eating fish quickly.  When\n
+							   your Frenzy meter is full, you earn double the points for\n
+							   everything you eat!  To keep it full, you need to keep\n
+							   eating!" />
+
+	<textSub name="objectiveText" string=" " />
+	<textSub name="timeObjectiveText" string=" " />
+
+</screen>

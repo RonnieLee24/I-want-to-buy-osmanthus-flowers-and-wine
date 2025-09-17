@@ -1,0 +1,21 @@
+<screen name="Stage 1 Load">
+
+	<include name="baseLyout" file="config\Stages\stageStartBase.xml" />
+
+	<textSub name="title" string="XXXX\n" />
+								  
+	<textSub name="tagline" string="Bonus Stage!" />
+		
+	<textSub name="para1"  string="This area is filled with good stuff to eat but it's also crawling\n
+					with poisonous mutants and deadly Barracuda!" />
+
+
+	<image file="resources/surgeonFish/hudImage.png" x="200" y="270" scaleX="-1" />
+	<image file="resources/barracuda/eat/eat_cycle.3.jpg" x="252" y="230" scaleX="0.8" scaleY="0.8" />
+
+	<textSub name="para2"  string="" />
+
+	<textSub name="objectiveText" string=" " />
+	<textSub name="timeObjectiveText" string=" " />
+
+</screen>
